@@ -1,0 +1,167 @@
+html{
+	scroll-bhavior: smooth;
+}
+
+body{
+	font-family:Garamond;
+	font-size: 3vh;
+	text-align: center;
+}
+
+div.sidenav a{
+	left: -10vw;
+	width: 12vw;
+	height: 6vh;
+	text-decoration: none;
+	position: fixed;
+	background-color: rgb(5,5,5);
+	color: white;
+	transition-duration: 0.5s;
+	opacity: 0.7;
+	border-radius: 0 50px 50px 0;
+	padding: 2vh;
+	z-index: 1;
+	margin-top: 3vh;
+	line-height: 6vh;
+}
+div.sidenav a:hover{
+	opacity: 1;
+	left: 0;
+}
+#h1 {top: 120;}
+#h2 {top: 210;}
+#h3 {top: 300;}
+#h4 {top: 390;}
+#h5 {top: 480;}
+
+div.navbar{
+	background-color: whitesmoke;
+	box-shadow: 0 0 1vh 0 gray; 
+	width: 101%;
+	height: 15vh;
+	position:fixed;
+	top: 0;
+ 	z-index: 1;
+	margin-left: -1vw;
+}
+
+div.head{
+	font-size: 6vh;
+	font-variant: small-caps;
+	font-family: Candara;
+	margin-top: 4vh;
+	text-align: left;
+	margin-left: 4vw;
+}
+
+.top{
+	padding: 2vh 2vw;
+	background-color: rgb(5,5,5);
+	opacity: 1;
+	text-decoration: none;
+	float: right;
+	font-family: Candara;
+	font-size: 3vh;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 1vh 1vh 0 gray;
+	transition-duration: 0.5s;
+	margin-right: 5vw;
+	margin-top: -7vh;
+}
+.top:hover{
+	background-color: WHITESMOKE;
+	color: black;
+	transform: scale(1.1);
+}
+
+.bg-image{
+	min-height: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.parallax{
+	background-image: url("images/class.jpg");
+	opacity: 0.8;
+	margin-top: 15vh;
+	min-height: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin-inline: -1vw;
+	background-size: cover;
+}
+
+.cover{
+	background-color: white;
+	width:100%;
+	height: 300%;
+}
+
+div.tag{
+	opacity: 1;
+	background-color: rgba(245,245,245,0.8);
+	padding-block: 4vh;
+	color: black;
+	float: center;
+	position: relative;
+	top: 22vh;
+	left: 23vw;
+	width: 55vw;
+	height: 40vh;
+	font-size: 4vh;
+	font-variant: small-caps;
+	font-family: Garamond;
+	font-weight: bold;
+	box-shadow: 0 0.5vh 1vh 0 grey;
+}
+
+div.sub	{
+	margin-bottom: 30vh;
+	margin-inline: 10vw;
+}
+
+img.students{
+	width: 40vw;
+	height: 50vh;
+	object-fit: cover;
+	float: left;
+}
+
+div.about{
+	float:right;
+	width: 35vw;
+	margin-right: -6vw;
+}
+
+div.table{
+	display: flex;
+}
+
+table{
+	border-spacing: 10%;
+}
+
+td{
+	width: 20vw;
+	height: 20vh;
+	padding-block: 2vh;
+	padding-inline: 4vw;
+	text-align: center;
+	font-family: Garamond;
+	font-variant: small-caps;
+	font-size: 4vh;
+	font-weight: bold;
+	box-shadow: 0 0.5vh 1vh 0 grey;
+	background-size: cover;
+	background-color: rgba(5,5,5,0.3);
+	color: rgba(255,255,255,1);
+	background-blend-mode: darken;
+	transition-duration: 0.5s;
+}
+td:hover{
+	transform: scale(1.1);
+}
