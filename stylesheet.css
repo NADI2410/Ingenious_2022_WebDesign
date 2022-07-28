@@ -1,5 +1,5 @@
 html{
-	scroll-bhavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -85,7 +85,6 @@ div.head{
 
 .parallax{
 	background-image: url("images/class.jpg");
-	opacity: 0.8;
 	margin-top: 15vh;
 	min-height: 90%;
 	background-repeat: no-repeat;
@@ -98,7 +97,7 @@ div.head{
 .cover{
 	background-color: white;
 	width:100%;
-	height: 300%;
+	height: 500%;
 }
 
 div.tag{
@@ -137,15 +136,11 @@ div.about{
 	margin-right: -6vw;
 }
 
-div.table{
-	display: flex;
-}
-
 table{
-	border-spacing: 10%;
+	border-spacing: 20%;
 }
 
-td{
+td.course{
 	width: 20vw;
 	height: 20vh;
 	padding-block: 2vh;
@@ -155,13 +150,60 @@ td{
 	font-variant: small-caps;
 	font-size: 4vh;
 	font-weight: bold;
-	box-shadow: 0 0.5vh 1vh 0 grey;
 	background-size: cover;
-	background-color: rgba(5,5,5,0.3);
+	background-color: rgba(5,5,5,0.6);
 	color: rgba(255,255,255,1);
 	background-blend-mode: darken;
 	transition-duration: 0.5s;
 }
-td:hover{
+td.course:hover{
 	transform: scale(1.1);
+	box-shadow: 0 0.2vh 0.2vh 0 grey;
+}
+	
+a:link{
+	text-decoration: none;
+}
+
+td.event{
+	float: center;
+	background-color: whitesmoke;
+	color: black;
+	width: 30vw;
+	height: 10vh;
+	padding-block: 2vh;
+	padding-inline: 2vw;
+	font-family: Candara;
+	font-size: 2.8vh;
+	box-shadow: 0 0.2vh 0.2vh 0 grey;
+	transition-duration: 0.5s;
+}
+td.event:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0.2vh 0.2vh 0 grey;
+}
+
+div.row{
+	display: flex;
+}
+
+.procard{			
+			width: 30vw;
+			margin:2vw;
+			float: left;
+			box-shadow:0 0.5vh 0.5vh 0 grey;
+			text-align: center;
+			transition: 0.2s;
+			background-color: whitesmoke;
+			padding-bottom: 2vh;
+}
+.procard img{	
+		height: 30vh;
+		width: 30vw;
+		object-fit: cover;
+}
+
+.procard:hover{	
+		box-shadow:1vh 1.5vh 1.5vh 1vh grey;
+		transform: scale(1.04);
 }
