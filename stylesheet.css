@@ -47,7 +47,7 @@ div.navbar{
 }
 
 div.head{
-	font-size: 6vh;
+	font-size: 5vh;
 	font-variant: small-caps;
 	font-family: Candara;
 	margin-top: 4vh;
@@ -56,7 +56,7 @@ div.head{
 }
 
 .top{
-	padding: 2vh 2vw;
+	padding: 2vh 1vw;
 	background-color: rgb(5,5,5);
 	opacity: 1;
 	text-decoration: none;
@@ -67,7 +67,7 @@ div.head{
 	color: white;
 	box-shadow: 0 0.5vh 0.5vh 0 gray;
 	transition-duration: 0.5s;
-	margin-right: 5vw;
+	margin-right: 2vw;
 	margin-top: -7vh;
 }
 .top:hover{
@@ -166,6 +166,7 @@ td.course{
 td.course:hover{
 	transform: scale(1.1);
 	box-shadow: 0 0.2vh 0.2vh 0 grey;
+	cursor: pointer;
 }
 	
 a:link{
@@ -240,6 +241,7 @@ div.row{
 .procard:hover{	
 		box-shadow:0.7vh 0.5vh 0.7vh 0.5vh grey;
 		transform: scale(1.04);
+		cursor: pointer;
 }
 
 .pro{	
@@ -249,7 +251,7 @@ div.row{
 			text-align: center;
 			transition: 0.2s;
 			background-color: whitesmoke;
-			padding-bottom: 1vh;
+			padding-bottom: 2vh;
 			margin-inline: 2vw;
 			margin-block: 5vh;
 }
@@ -257,11 +259,13 @@ div.row{
 		height: 40vh;
 		width: 22vw;
 		object-fit: cover;
+		padding-bottom: 2vh;
 }
 
 .pro:hover{	
 		box-shadow:0.5vh 0.5vh 0.4vh 0.4vh grey;
 		transform: scale(1.04);
+		cursor: pointer;
 }
 div.footer{
 	font-family: Candara;
@@ -334,7 +338,7 @@ p.contact{
 }
 
 input.detail{
-	background-color: rgba(5,5,5,0.1);
+	background-color: rgba(50,50,50,0.1);
 	padding-block:2vh;
 	padding-inline:2vw;
 	width: 50vw;
@@ -385,6 +389,35 @@ input.submit:hover{
 		transform: scale(1.1);
 }
 
-.copyright{
-	column-span="all"
+marquee{
+	font-family: Candara;
+	margin-top: 2vh;
+}
+
+marquee a:link{
+	color: black;
+}
+marquee a:visited{
+	color: black;
+}
+marquee a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.notice{
+	background-color: rgba(50,50,50,0.1);
+	padding-inline: 3vh;
+	padding-block: 4vh;
+	margin-block: 5vh;
+	box-shadow: 0 0.4vh 0.4vh 0 grey;
+	border-radius: 10px;
+	text-align: left;
+	font-family: Garamond;
+	font-size: 3vh;
+	transition-duration: 0.2s;
+}
+.notice:hover{
+	transform: scale(1.05);
+	cursor: pointer;
 }
